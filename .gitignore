@@ -1,0 +1,6 @@
+.DS_Store
+.Trashes
+composer.lock
+vendor
+docs
+tools

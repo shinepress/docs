@@ -1,0 +1,10 @@
+parameters:
+	paths: [
+		'vendor/shinepress/'
+	]
+
+	include: ['*.php']
+
+	outputDir: '%workingDir%/docs'
+
+	title: ShinePress

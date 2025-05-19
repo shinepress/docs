@@ -1,0 +1,10 @@
+#!/bin/sh
+
+BASEDIR=$(dirname "$0")
+WORKINGDIR="$BASEDIR/.."
+
+cd "$WORKINGDIR"
+mkdir -p tools
+curl -L https://github.com/ApiGen/ApiGen/releases/latest/download/apigen.phar -o tools/apigen
+chmod +x tools/apigen
+./tools/apigen

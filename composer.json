@@ -1,0 +1,13 @@
+{
+	"name": "shinepress/docs",
+	"type": "project",
+	"require-dev": {
+		"shinepress/framework": "*",
+		"shinepress/hooks": "*",
+		"shinepress/globals": "*"
+	},
+	"scripts": {
+		"build": "./bin/build",
+		"clean": "./bin/clean"
+	}
+}
